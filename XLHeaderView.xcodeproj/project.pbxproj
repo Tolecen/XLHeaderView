@@ -15,7 +15,7 @@
 		976787BE1AC924B000E24671 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 976787BC1AC924B000E24671 /* LaunchScreen.xib */; };
 		976787CA1AC924B000E24671 /* XLHeaderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 976787C91AC924B000E24671 /* XLHeaderViewTests.m */; };
 		976787D61AC924D800E24671 /* XLHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 976787D51AC924D800E24671 /* XLHeaderView.m */; };
-		976787D81AC9289F00E24671 /* backImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 976787D71AC9289F00E24671 /* backImage.png */; };
+		976787DA1AC9373D00E24671 /* backImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 976787D91AC9373D00E24671 /* backImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		976787C91AC924B000E24671 /* XLHeaderViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLHeaderViewTests.m; sourceTree = "<group>"; };
 		976787D41AC924D800E24671 /* XLHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLHeaderView.h; sourceTree = "<group>"; };
 		976787D51AC924D800E24671 /* XLHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLHeaderView.m; sourceTree = "<group>"; };
-		976787D71AC9289F00E24671 /* backImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backImage.png; sourceTree = "<group>"; };
+		976787D91AC9373D00E24671 /* backImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		976787AC1AC924B000E24671 /* XLHeaderView */ = {
 			isa = PBXGroup;
 			children = (
-				976787D71AC9289F00E24671 /* backImage.png */,
+				976787D91AC9373D00E24671 /* backImage.png */,
 				976787D31AC924B700E24671 /* XLHeader */,
 				976787B11AC924B000E24671 /* AppDelegate.h */,
 				976787B21AC924B000E24671 /* AppDelegate.m */,
@@ -215,10 +215,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976787DA1AC9373D00E24671 /* backImage.png in Resources */,
 				976787B91AC924B000E24671 /* Main.storyboard in Resources */,
 				976787BE1AC924B000E24671 /* LaunchScreen.xib in Resources */,
 				976787BB1AC924B000E24671 /* Images.xcassets in Resources */,
-				976787D81AC9289F00E24671 /* backImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +298,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhongshan Zhang (4ZJV2KP3QN)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -318,6 +319,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "efa96839-b9db-47c8-8c69-fe484e3e6a75";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -339,6 +341,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhongshan Zhang (4ZJV2KP3QN)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -352,6 +355,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "efa96839-b9db-47c8-8c69-fe484e3e6a75";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -361,9 +365,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhongshan Zhang (4ZJV2KP3QN)";
 				INFOPLIST_FILE = XLHeaderView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "efa96839-b9db-47c8-8c69-fe484e3e6a75";
 			};
 			name = Debug;
 		};
@@ -371,9 +377,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhongshan Zhang (4ZJV2KP3QN)";
 				INFOPLIST_FILE = XLHeaderView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "efa96839-b9db-47c8-8c69-fe484e3e6a75";
 			};
 			name = Release;
 		};
@@ -430,6 +438,7 @@
 				976787CF1AC924B000E24671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		976787D01AC924B000E24671 /* Build configuration list for PBXNativeTarget "XLHeaderViewTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +447,7 @@
 				976787D21AC924B000E24671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
