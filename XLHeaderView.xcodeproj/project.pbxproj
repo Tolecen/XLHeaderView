@@ -14,6 +14,8 @@
 		976787BB1AC924B000E24671 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 976787BA1AC924B000E24671 /* Images.xcassets */; };
 		976787BE1AC924B000E24671 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 976787BC1AC924B000E24671 /* LaunchScreen.xib */; };
 		976787CA1AC924B000E24671 /* XLHeaderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 976787C91AC924B000E24671 /* XLHeaderViewTests.m */; };
+		976787D61AC924D800E24671 /* XLHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 976787D51AC924D800E24671 /* XLHeaderView.m */; };
+		976787D81AC9289F00E24671 /* backImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 976787D71AC9289F00E24671 /* backImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		976787C31AC924B000E24671 /* XLHeaderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLHeaderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		976787C81AC924B000E24671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		976787C91AC924B000E24671 /* XLHeaderViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLHeaderViewTests.m; sourceTree = "<group>"; };
+		976787D41AC924D800E24671 /* XLHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLHeaderView.h; sourceTree = "<group>"; };
+		976787D51AC924D800E24671 /* XLHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLHeaderView.m; sourceTree = "<group>"; };
+		976787D71AC9289F00E24671 /* backImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,8 @@
 		976787AC1AC924B000E24671 /* XLHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				976787D71AC9289F00E24671 /* backImage.png */,
+				976787D31AC924B700E24671 /* XLHeader */,
 				976787B11AC924B000E24671 /* AppDelegate.h */,
 				976787B21AC924B000E24671 /* AppDelegate.m */,
 				976787B41AC924B000E24671 /* ViewController.h */,
@@ -117,6 +124,15 @@
 				976787C81AC924B000E24671 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		976787D31AC924B700E24671 /* XLHeader */ = {
+			isa = PBXGroup;
+			children = (
+				976787D41AC924D800E24671 /* XLHeaderView.h */,
+				976787D51AC924D800E24671 /* XLHeaderView.m */,
+			);
+			name = XLHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +218,7 @@
 				976787B91AC924B000E24671 /* Main.storyboard in Resources */,
 				976787BE1AC924B000E24671 /* LaunchScreen.xib in Resources */,
 				976787BB1AC924B000E24671 /* Images.xcassets in Resources */,
+				976787D81AC9289F00E24671 /* backImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				976787B61AC924B000E24671 /* ViewController.m in Sources */,
+				976787D61AC924D800E24671 /* XLHeaderView.m in Sources */,
 				976787B31AC924B000E24671 /* AppDelegate.m in Sources */,
 				976787B01AC924B000E24671 /* main.m in Sources */,
 			);

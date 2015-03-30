@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XLHeaderView.h"
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
-@interface ViewController : UIViewController
-
+@property (nonatomic, strong) UITableView * listTableV;
+@property (nonatomic, strong) XLHeaderView *headerView;
 
 @end
 
